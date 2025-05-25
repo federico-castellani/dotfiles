@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# But do not ignore these specific folders
+!wlogout/
+!kitty/
+!rofi/
+!waybar/
+!hypr/
+!fastfetch/
+
+# Optional: ensure no files from subdirectories are included unless tracked
+!.gitignore
