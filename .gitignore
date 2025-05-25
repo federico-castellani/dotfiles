@@ -1,7 +1,5 @@
-# Ignore everything by default
 *
 
-# But do not ignore these specific folders
 !wlogout/
 !kitty/
 !rofi/
@@ -9,5 +7,11 @@
 !hypr/
 !fastfetch/
 
-# Optional: ensure no files from subdirectories are included unless tracked
+!wlogout/**
+!kitty/**
+!rofi/**
+!waybar/**
+!hypr/**
+!fastfetch/**
+
 !.gitignore
