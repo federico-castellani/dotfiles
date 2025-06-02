@@ -190,7 +190,8 @@
 	    "exec": "~/.config/waybar/scripts/songdetail.sh",
 	    "return-type": "json",
 	    "tail": true,
-	    "restart-interval": 3600
+	    "restart-interval": 3600,
+	    "on-click": "playerctl play-pause"
 	},
     
         "backlight": {
